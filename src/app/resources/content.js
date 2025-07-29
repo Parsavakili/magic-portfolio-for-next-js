@@ -2,13 +2,13 @@ import { Logo } from "@/once-ui/components";
 
 const person = {
   firstName: "Parsa",
-  lastName: "VAkili",
+  lastName: "Vakili",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Electronic Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "parsa.vakili84@gmail.com",
   location: "Asia/Tehran", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -18,8 +18,9 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      A creative electronics, electrical, and computer engineering student at Iran University of Science and Technology (IUST) with a passion for innovation.
+      Originally from Tabriz, he is an active individual who applies his technical skills as a developer at Magma Company 
+      while balancing a rigorous academic life with personal pursuits as a pianist and an avid biker.
     </>
   ),
 };
@@ -30,17 +31,17 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Parsavakili",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/parsa-vakili-4254a3289",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Telegram",
+    icon: "telegram",
+    link: "t.me/parsavakili",
   },
   {
     name: "Email",
@@ -55,10 +56,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Parsa — Engineer & Creator. </>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: <>Recent project: <strong className="ml-4">GPS tracker for pets, seniors, and children</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
