@@ -41,7 +41,7 @@ const social = [
   {
     name: "Telegram",
     icon: "telegram",
-    link: "t.me/parsavakili",
+    link: "t.me//parsavakili",
   },
   {
     name: "Email",
@@ -114,7 +114,7 @@ const about = {
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: " Project",
             width: 16,
             height: 9,
           },
