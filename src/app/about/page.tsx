@@ -9,13 +9,13 @@ import {
   SmartImage,
   Tag,
   Text,
-} from "@/once-ui/components";
+} from "@/magma/components";
 import { baseURL } from "@/app/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import { person, about, social } from "@/app/resources/content";
 import React from "react";
-import { Meta, Schema } from "@/once-ui/modules";
+import { Meta, Schema } from "@/magma/modules";
 
 export async function generateMetadata() {
   return Meta.generate({

@@ -1,8 +1,8 @@
 "use client";
 
 import { mailchimp } from "@/app/resources";
-import { Button, Flex, Heading, Input, Text, Background, Column } from "@/once-ui/components";
-import { opacity, SpacingToken } from "@/once-ui/types";
+import { Button, Flex, Heading, Input, Text, Background, Column } from "@/magma/components";
+import { opacity, SpacingToken } from "@/magma/types";
 import { useState } from "react";
 
 function debounce<T extends (...args: any[]) => void>(func: T, delay: number): T {

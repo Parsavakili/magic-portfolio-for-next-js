@@ -1,8 +1,8 @@
-import { Flex } from "@/once-ui/components";
+import { Flex } from "@/magma/components";
 import MasonryGrid from "@/components/gallery/MasonryGrid";
 import { baseURL } from "@/app/resources";
 import { gallery, person } from "@/app/resources/content";
-import { Meta, Schema } from "@/once-ui/modules";
+import { Meta, Schema } from "@/magma/modules";
 
 export async function generateMetadata() {
   return Meta.generate({

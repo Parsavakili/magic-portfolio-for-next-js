@@ -9,10 +9,10 @@ import {
   SmartLink,
   Text,
   InlineCode,
-} from "@/once-ui/components";
-import { CodeBlock } from "@/once-ui/modules/code/CodeBlock";
-import { TextProps } from "@/once-ui/interfaces";
-import { SmartImageProps } from "@/once-ui/components/SmartImage";
+} from "@/magma/components";
+import { CodeBlock } from "@/magma/modules/code/CodeBlock";
+import { TextProps } from "@/magma/interfaces";
+import { SmartImageProps } from "@/magma/components/SmartImage";
 
 type CustomLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
@@ -157,18 +157,18 @@ const components = {
   Text,
   CodeBlock,
   InlineCode,
-  Accordion: dynamic(() => import("@/once-ui/components").then(mod => mod.Accordion)),
-  AccordionGroup: dynamic(() => import("@/once-ui/components").then(mod => mod.AccordionGroup)),
-  Table: dynamic(() => import("@/once-ui/components").then(mod => mod.Table)),
-  Feedback: dynamic(() => import("@/once-ui/components").then(mod => mod.Feedback)),
-  Button: dynamic(() => import("@/once-ui/components").then(mod => mod.Button)),
-  Card: dynamic(() => import("@/once-ui/components").then(mod => mod.Card)),
-  Grid: dynamic(() => import("@/once-ui/components").then(mod => mod.Grid)),
-  Row: dynamic(() => import("@/once-ui/components").then(mod => mod.Row)),
-  Column: dynamic(() => import("@/once-ui/components").then(mod => mod.Column)),
-  Icon: dynamic(() => import("@/once-ui/components").then(mod => mod.Icon)),
-  SmartImage: dynamic(() => import("@/once-ui/components").then(mod => mod.SmartImage)),
-  SmartLink: dynamic(() => import("@/once-ui/components").then(mod => mod.SmartLink)),
+  Accordion: dynamic(() => import("@/magma/components").then(mod => mod.Accordion)),
+  AccordionGroup: dynamic(() => import("@/magma/components").then(mod => mod.AccordionGroup)),
+  Table: dynamic(() => import("@/magma/components").then(mod => mod.Table)),
+  Feedback: dynamic(() => import("@/magma/components").then(mod => mod.Feedback)),
+  Button: dynamic(() => import("@/magma/components").then(mod => mod.Button)),
+  Card: dynamic(() => import("@/magma/components").then(mod => mod.Card)),
+  Grid: dynamic(() => import("@/magma/components").then(mod => mod.Grid)),
+  Row: dynamic(() => import("@/magma/components").then(mod => mod.Row)),
+  Column: dynamic(() => import("@/magma/components").then(mod => mod.Column)),
+  Icon: dynamic(() => import("@/magma/components").then(mod => mod.Icon)),
+  SmartImage: dynamic(() => import("@/magma/components").then(mod => mod.SmartImage)),
+  SmartLink: dynamic(() => import("@/magma/components").then(mod => mod.SmartLink)),
 };
 
 type CustomMDXProps = MDXRemoteProps & {
