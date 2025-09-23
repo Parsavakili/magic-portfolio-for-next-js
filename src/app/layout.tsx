@@ -1,5 +1,5 @@
-import "@/once-ui/styles/index.scss";
-import "@/once-ui/tokens/index.scss";
+import "@/magma/styles/index.scss";
+import "@/magma/tokens/index.scss";
 
 import classNames from "classnames";
 
