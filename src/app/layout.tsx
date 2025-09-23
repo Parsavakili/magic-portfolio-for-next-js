@@ -6,9 +6,9 @@ import classNames from "classnames";
 import { Footer, Header, RouteGuard } from "@/components";
 import { baseURL, effects, style, font, home } from "@/app/resources";
 
-import { Background, Column, Flex, ThemeProvider, ToastProvider } from "@/magma/components";
-import { opacity, SpacingToken } from "@/magma/types";
-import { Meta } from "@/magma/modules";
+import { Background, Column, Flex, ThemeProvider, ToastProvider } from "@/once-ui/components";
+import { opacity, SpacingToken } from "@/once-ui/types";
+import { Meta } from "@/once-ui/modules";
 
 export async function generateMetadata() {
   return Meta.generate({

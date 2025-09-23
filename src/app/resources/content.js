@@ -1,4 +1,4 @@
-import { Logo } from "@/magma/components";
+import { Logo } from "@/once-ui/components";
 
 const person = {
   firstName: "Parsa",
@@ -10,7 +10,7 @@ const person = {
   avatar: "/images/avatar.jpg",
   email: "parsa.vakili84@gmail.com",
   location: "Asia/Tehran", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Turkish" , "Persian" , "Arabic" ], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {

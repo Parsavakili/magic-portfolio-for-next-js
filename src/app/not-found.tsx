@@ -1,4 +1,4 @@
-import { Column, Heading, Text } from "@/magma/components";
+import { Column, Heading, Text } from "@/once-ui/components";
 
 export default function NotFound() {
   return (
