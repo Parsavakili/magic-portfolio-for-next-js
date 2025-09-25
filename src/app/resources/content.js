@@ -1,4 +1,4 @@
-import { Logo } from "@/once-ui/components";
+import { Logo } from "@/magma/components";
 
 const person = {
   firstName: "Parsa",

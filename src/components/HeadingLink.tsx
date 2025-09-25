@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Heading, Flex, IconButton, useToast } from "@/once-ui/components";
+import { Heading, Flex, IconButton, useToast } from "@/magma/components";
 
 import styles from "@/components/HeadingLink.module.scss";
 

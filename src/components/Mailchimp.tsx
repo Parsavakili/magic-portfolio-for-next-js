@@ -1,7 +1,7 @@
 "use client";
 
 import { mailchimp } from "@/app/resources";
-import { Button, Flex, Heading, Input, Text, Background, Column } from "@/once-ui/components";
+import { Button, Flex, Heading, Input, Text, Background, Column } from "@/magma/components";
 import { opacity, SpacingToken } from "@/once-ui/types";
 import { useState } from "react";
 
