@@ -8,7 +8,7 @@ import {
   Heading,
   SmartLink,
   Text,
-} from "@/once-ui/components";
+} from "@/magma/components";
 
 interface ProjectCardProps {
   href: string;

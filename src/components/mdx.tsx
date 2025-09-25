@@ -9,10 +9,10 @@ import {
   SmartLink,
   Text,
   InlineCode,
-} from "@/once-ui/components";
-import { CodeBlock } from "@/once-ui/modules/code/CodeBlock";
-import { TextProps } from "@/once-ui/interfaces";
-import { SmartImageProps } from "@/once-ui/components/SmartImage";
+} from "@/magma/components";
+import { CodeBlock } from "@/magma/modules/code/CodeBlock";
+import { TextProps } from "@/magma/interfaces";
+import { SmartImageProps } from "@/magma/components/SmartImage";
 
 type CustomLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
