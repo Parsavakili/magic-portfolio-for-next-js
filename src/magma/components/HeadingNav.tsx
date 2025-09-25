@@ -1,8 +1,8 @@
 "use client";
 
 import React, { forwardRef, useEffect, useState, useRef, useCallback } from "react";
-import { Column, Flex, Row, SmartLink, Text } from "@/once-ui/components";
-import { useHeadingLinks } from "@/once-ui/hooks/generateHeadingLinks";
+import { Column, Flex, Row, SmartLink, Text } from "@/magma/components";
+import { useHeadingLinks } from "@/magma/hooks/generateHeadingLinks";
 
 interface props extends React.ComponentProps<typeof Flex> {}
 
