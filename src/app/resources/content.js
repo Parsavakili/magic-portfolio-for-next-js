@@ -64,7 +64,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Parsa Vakili , an Electronic engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -91,9 +91,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-      A creative electronics, electrical, and computer engineering student at Iran University of Science and Technology (IUST) with a passion for innovation.
-      Originally from Tabriz, he is an active individual who applies his technical skills as a developer at Magma Company 
-      while balancing a rigorous academic life with personal pursuits as a pianist and an avid biker.
+        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
+        into simple, elegant design solutions. Her work spans digital interfaces, interactive
+        experiences, and the convergence of design and technology.
       </>
     ),
   },
@@ -102,12 +102,17 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Metable",
-        timeframe: "2024 - Present",
-        role: "Electronic Engineer",
+        company: "FLY",
+        timeframe: "2022 - Present",
+        role: "Senior Design Engineer",
         achievements: [
           <>
-            Redesigned Electronic circuits for 30% lower space and better perfomance .
+            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+            engagement and 30% faster load times.
+          </>,
+          <>
+            Spearheaded the integration of AI tools into design workflows, enabling designers to
+            iterate 50% faster.
           </>,
         ],
         images: [
@@ -143,12 +148,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "Iran University of science and technology",
-        description: <>Studied Electronic and computer engineering.</>,
+        name: "University of Jakarta",
+        description: <>Studied software engineering.</>,
       },
       {
-        name: " National Organization for Development of Exceptional Talents ",
-        description: <> Studied physics and math </>,
+        name: "Build the Future",
+        description: <>Studied online marketing and personal branding.</>,
       },
     ],
   },
@@ -157,8 +162,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "circuit design ",
-        description: <>Able to design circuits in altium .</>,
+        title: "Figma",
+        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -176,8 +181,8 @@ const about = {
         ],
       },
       {
-        title: " microcontroller programming ",
-        description: <>  Able to Program embedded systemsss .</>,
+        title: "Next.js",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
